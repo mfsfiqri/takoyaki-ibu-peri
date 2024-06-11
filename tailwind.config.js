@@ -12,7 +12,7 @@ module.exports = {
         dark: "#0f172a",
       },
       backgroundImage: {
-        "hero-image": "url(/img/testing.jpg)",
+        "hero-image": "url('../img/testing.jpg')",
       },
     },
   },

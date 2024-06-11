@@ -814,7 +814,7 @@ video {
 }
 
 .bg-hero-image {
-  background-image: url(/img/testing.jpg);
+  background-image: url('../img/testing.jpg');
 }
 
 .bg-cover {
