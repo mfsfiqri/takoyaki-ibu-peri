@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="max-[640px]:text-[70%] scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takoyaki Ibu Peri</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header
+      class="bg-white absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-xl text-primary block py-6">
+              Takoyaki Ibu Peri</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <!-- hamburger menu -->
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-transparent shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Tentang Kami</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#menu"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Menu</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#store"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Toko</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section
+      id="home"
+      class="min-h-screen flex items-center bg-[url('/img/testing.jpg')] bg-no-repeat bg-cover bg-center relative"
+    >
+      <main class="min-[450px]:pl-24 max-[450px]:pl-12 max-w-4xl">
+        <h1 class="text-8xl text-white font-bold shadow-sm">
+          Nikmati <span class="text-primary">Takoyaki</span> Otentik Jepang
+        </h1>
+        <p class="text-2xl mt-4 mb-10 text-white font-thin">
+          Takoyaki yang Membuat Anda Ketagihan
+        </p>
+        <a
+          href="http://wa.me/+6281221107803?text=Hai%20kak,%20saya%20butuh%20info%20Takoyaki%20Ibu%20Peri"
+          target="_blank"
+          class="text-xl font-semibold text-white bg-primary py-4 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+        >
+          <i class="fab fa-whatsapp mr-2 fa-lg"></i>
+          Pesan Sekarang</a
+        >
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-24 pb-16 bg-slate-800">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold text-white text-4xl">
+              <span class="text-primary">Tentang</span> Kami
+            </h2>
+          </div>
+          <div class="w-full px-4 flex flex-wrap">
+            <div class="w-full self-end px-4 lg:w-1/2">
+              <img
+                src="img/hero.jpg"
+                alt="Tentang Kami"
+                class="max-w-full mx-auto"
+                width="500px"
+              />
+            </div>
+            <div class="w-full px-4 lg:w-1/2 max-[1024px]:pt-4">
+              <h3 class="font-bold text-2xl mb-4 text-white">
+                Kenapa memilih takoyaki kami?
+              </h3>
+              <p class="mb-3 font-thin text-base text-white">
+                Kami adalah
+                <a href="#home" class="text-primary hover:opacity-80"
+                  >Takoyaki Ibu Peri</a
+                >, sebuah usaha yang didirikan oleh pecinta kuliner Jepang yang
+                berkomitmen untuk menghadirkan rasa otentik Takoyaki langsung ke
+                meja Anda. Berawal dari hobi dan kecintaan terhadap masakan
+                Jepang, kami memutuskan untuk berbagi kebahagiaan ini dengan
+                lebih banyak orang.
+              </p>
+              <p class="mb-3 font-thin text-base text-white">
+                Kami percaya bahwa makanan yang lezat adalah hasil dari cinta
+                dan dedikasi, dan itu tercermin dalam setiap hidangan yang kami
+                sajikan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Products Section Start -->
+    <section id="menu" class="pt-24 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold text-dark text-4xl mb-4">
+              <span class="text-primary">Menu</span> Kami
+            </h2>
+            <p class="font-medium text-base text-slate-500">
+              Beli dengan harga <span class="text-primary">IDR 5K/3PCS</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center">
+          <div class="text-center pb-16 px-4">
+            <img src="/img/menu.jpg" alt="menu" class="rounded-[80%] w-60" />
+            <h3 class="mt-4 mx-auto mb-2">- Baso -</h3>
+          </div>
+          <div class="text-center pb-16 px-4">
+            <img src="/img/menu.jpg" alt="menu" class="rounded-[80%] w-60" />
+            <h3 class="mt-4 mx-auto mb-2">- Sosis -</h3>
+          </div>
+          <div class="text-center pb-16 px-4">
+            <img src="/img/menu.jpg" alt="menu" class="rounded-[80%] w-60" />
+            <h3 class="mt-4 mx-auto mb-2">- Crab Stick -</h3>
+          </div>
+          <div class="text-center pb-16 px-4">
+            <img src="/img/menu.jpg" alt="menu" class="rounded-[80%] w-60" />
+            <h3 class="mt-4 mx-auto mb-2">- Udang -</h3>
+          </div>
+          <div class="text-center pb-16 px-4">
+            <img src="/img/menu.jpg" alt="menu" class="rounded-[80%] w-60" />
+            <h3 class="mt-4 mx-auto mb-2">- Keju -</h3>
+          </div>
+          <div class="text-center pb-16 px-4">
+            <img src="/img/menu.jpg" alt="menu" class="rounded-[80%] w-60" />
+            <h3 class="mt-4 mx-auto mb-2">- Gurita -</h3>
+          </div>
+          <div class="text-center pb-16 px-4">
+            <img src="/img/menu.jpg" alt="menu" class="rounded-[80%] w-60" />
+            <h3 class="mt-4 mx-auto mb-2">- Cumi -</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section End -->
+
+    <!-- Store Section Start -->
+    <section id="store" class="pt-24 pb-16">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold text-dark text-4xl">
+              <span class="text-primary">Toko</span> Kami
+            </h2>
+          </div>
+          <div class="w-full px-4 flex flex-wrap">
+            <div class="w-full self-end px-4 lg:w-1/2">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7924819949662!2d107.6864157!3d-6.915396699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd4f53978085%3A0x44dd2470df842eda!2sJl.%20Golf%20Sel.%20I%20No.31%2C%20Cisaranten%20Bina%20Harapan%2C%20Kec.%20Arcamanik%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040294!5e0!3m2!1sid!2sid!4v1718101224247!5m2!1sid!2sid"
+                class="object-cover w-full h-72"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 max-[1024px]:pt-4">
+              <h3 class="font-bold text-2xl mb-4 text-dark">Alamat Toko</h3>
+              <p class="mb-3 font-thin text-base text-dark">
+                <i class="fa-solid fa-location-dot fa-2xl"></i>
+                Jalan Golf Selatan 1 No 31 B, Kec. Arcamanik, Kota Bandung, Jawa
+                Barat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Store Section End -->
+
+    <!-- Medsos -->
+    <section>
+      <div class="container">
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="flex items-center justify-center mb-5">
+            <!-- Youtube -->
+            <a
+              href="#"
+              target="_blank"
+              class="w-11 h-11 mr-3 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+
+            <!-- Intagram -->
+            <a
+              href="#"
+              target="_blank"
+              class="w-11 h-11 mr-3 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <!-- Facebook -->
+            <a
+              href="#"
+              target="_blank"
+              class="w-11 h-11 mr-3 rounded-full flex justify-center items-center border border-dark text-dark hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-12 pb-12 mt-8 text-center">
+      <div class="w-full px-4 mb-10">
+        <a
+          href="#home"
+          class="text-base text-white font-bold py-3 px-4 hover:opacity-80"
+          >Home</a
+        >
+        <a
+          href="#about"
+          class="text-base text-white font-bold py-3 px-4 hover:opacity-80"
+          >Tentang Kami</a
+        >
+        <a
+          href="#menu"
+          class="text-base text-white font-bold py-3 px-4 hover:opacity-80"
+          >Menu</a
+        >
+        <a
+          href="#store"
+          class="text-base text-white font-bold py-3 px-4 hover:opacity-80"
+          >Toko</a
+        >
+      </div>
+      <p class="font-medium text-xs text-slate-500 text-center">
+        Created by
+        <a href="#" class="font-bold text-primary"
+          >Kelompok KWU Mahasiswa Mandala</a
+        >. | &copy; 2024.
+      </p>
+    </footer>
+    <!-- Footer End -->
+    <!-- Script -->
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
